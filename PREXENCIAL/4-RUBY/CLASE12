@@ -1,0 +1,110 @@
+#RUBY
+
+
+###CARATERISTICAS DE LOS LENGUAJES DE PROGRAMACIÓN
+
+
+###ELEMENTOS DE UN LENG DE PRO.
+
+###TIPOS DE DATOS
+ - NÚMERICOS
+ - LÓGICOS
+ - CARÁCTERES
+
+###IDENTIFICADORES
+
+Son palabras reservadas, PALABRAS QUE POSEE CADA LENG. DE PROG.
+
+[AQUI PARABRAS RESERVADAS DE RUBY](http://ruby.obdnet.com/Palabrasreservadas)
+
+###VARIABLES
+
+A las variables se le asigna un valor y este puede cambiar en el transcurso del programa
+
+**Caracteristicas de las variables:**
+
+**Nombre variable + valor
+La declaración no puede empezar en MAYUSCULA
+
+
+###CONSTANTES
+
+- NO cambia en ejecución
+- IDEAL EN MAYUSCULAS
+
+###OPERADORES
+
+operaciones de la matemática
+
+
+###INSTRUCCIONES PRIMITIVAS
+INSTRUCCIONES DE:
+
+- ASIGNACIÓN var
+- DE SALIDA puts, print
+- DE ENTRADA gets, inputs
+
+
+###INSTRUCCIONES DE CONTROL
+
+INSTRUCCIONES:
+
+- ALTERNATIVAS
+	- doble: if/else
+	- simple: if
+	- multiple: else if
+	- anidamiento: múltiples else if
+
+- REPETITIVAS
+	- For
+	- White
+	---si la condición es falsa no se ejecuta, si es verdadera se ejecuta hasta que sea falsa---
+
+- DE SALTO
+	- Break  ---->se salta el ciclo si deja de cumplir una condición
+
+###FUNCIONES O MÉTODOS
+
+Se usa como codigo reutilizable para ahorrar escritura y muchas cosas más
+
+
+##EN RUBY
+
+###IRB:
+- Es la consola interactiva de ruby
+- se ejecuta dentro de la terminal de linux
+
+
+
+
+
+
+#PASOS PARA INICIAR RUBY
+1. ABRIR TERMINAL
+2. irb
+3. ó ruby + acciones
+
+
+
+
+
+#CLAVES RUBY
+
+CON **PUTS** imprime una orden en la terminal **con** salto de linea
+CON **PRINT** imprime una orden en la terminal** sin** salto en la linea
+CON NUMERO.to_s se convierte en texto el numero constante
+CON ***#*** SE CREAN LOS COMENTARIOS EN EL CODIGO
+
+CON #{} se combianan texto y numeros dentro de las comillas "hola #{4}" #interpolación
+
+###SIMBOLOS
+>.> mayor
+< menor
+>= mayor o igual
+<= menor o igual
+== ES UNA COMPARACIÓN
+!= ES DIFERENCIA
+
+
+
+

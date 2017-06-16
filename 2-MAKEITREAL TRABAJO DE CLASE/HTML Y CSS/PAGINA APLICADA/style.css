@@ -1,0 +1,130 @@
+body {
+  background-color: #581845;
+  width: 800px;
+  font-family: "exo 2";
+  margin-left: auto;
+  margin-right: auto;
+  color: #DAF7A6;
+}
+
+::selection {
+  background: #FE274E;
+}
+
+h1.titleprinci {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/451f8352401653.590fdc1a3d49f.jpg");
+  background-position: center;
+  text-align: center;
+  font-size: 60px;
+  color: #DAF7A6;
+  text-shadow: 3px 3px #ff0000;
+  font-family: "vibur"
+}
+
+.padding1, .padding2 {
+  font-size: 18px;
+  text-align: justify;
+  font-family: "exo 2";
+}
+
+.width {
+  text-align: right;
+  width: 50%;
+  font-family: "vibur";
+}
+
+.height {
+  height: 50px;
+  font-family: "Indie Flower", cursive;
+  text-align: justify;
+}
+.fa-rocket{
+  float: right;
+}
+
+.fa-camera-retro {
+  float: right;
+}
+
+.box1 {
+  height: 170px;
+  width: 600px;
+  border: 25px solid #2F2D37;
+  padding: 15px;
+  margin: 50px;
+  text-align: justify;
+  Font-family: "exo 2", cursive;
+}
+
+.epa:hover {
+  color: #2F8D37;
+}
+
+.epa {
+  color: #FE274E;
+  text-decoration:  none;
+  float: right;
+}
+
+
+/*
+
+#h1-1 {
+  width: 300px;
+  float: left;
+  font-size: color: #C70039;
+}
+
+*/
+
+h2 {
+  float: right;
+  font-size: 18px;
+  width: 500px;
+  text-align: right;
+}
+
+mark {
+  background-color: #C70039;
+  color: #FF5733;
+}
+
+mark1 {
+  background-color: #581845
+}
+
+.cuadros1 {
+  border-radius: 5px;
+  float: right;
+  border-style: solid;
+  border-color: #FF5733;
+}
+
+.cuadros2 {
+  border-radius: 5px;
+  float: left;
+  border-style: solid;
+  border-color: #FF5733;
+}
+
+img {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* los divs estan dentro de los border padding y margin y luego va el ancho y alto, el div esta adentro y es el CONTENIDO */
+
+.padding1 {
+  float: left;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.padding2 {
+  float: right;
+  padding: 10px 20px 10px 30px;
+}

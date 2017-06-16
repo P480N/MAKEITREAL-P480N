@@ -1,0 +1,59 @@
+body {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  background-color: MEDIUMSPRINGGREEN;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  height: 250px;
+  background-color: indigo;
+}
+
+.flex-item {
+  background-color: greenyellow;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+
+/*TABLETAS*/
+
+@media (min-width: 400px) {
+  body {
+    background-color: #FF5733;
+    font-size: 10px;
+    color: yellow;
+  }
+}
+
+
+/*ESCRITORIO*/
+
+@media (min-width: 600px) {
+  body {
+    background-color: #DAF7A6;
+    font-size: 20px;
+    color: blue;
+  }
+}
+
+
+/*PANTALLA GRANDE*/
+
+@media (min-width: 800px) {
+  body {
+    background-color: #FFC300;
+    font-size: 60px;
+    color: red;
+  }
+  .gr {
+    display: none;
+  }
+}
