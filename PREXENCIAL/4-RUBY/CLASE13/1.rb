@@ -110,7 +110,7 @@ if 3==6
 end
 =end
 #--------------------EJERCICIO 6
-
+=begin
 print "ingresa algún numerito: "
 
 num = gets.chomp.to_i
@@ -121,4 +121,19 @@ end
 
 if num > 20
   puts "ese numero ingresado es mayor a 20"
+end
+=end
+#--------------------EJERCICIO 6
+print "ingresa algún numerito: "
+
+num = gets.chomp.to_i
+
+if num < 10
+  puts "ese numero ingresado es menor a 10"
+else
+if num == 10
+  puts "ese numero ingresado es igual a 10"
+else num > 10
+  puts "ese numero ingresado es mayor a 10"
+end
 end
