@@ -1,0 +1,24 @@
+#RUBY
+
+##VARIABLES
+
+- no se pueden nombrar **ni numeros ni con mayusculas**
+- pero si iniciando con **$ o _**
+
+#CLAVES RUBY
+
+- **to_s** CONVIERTE NUMEROS A TEXTO
+- **to_i** CONVIERTE CADENA DE TEXTO EN NUMEROS
+- NOMBRE = **gets.chomp **PIDE AL USUARIO ALGO Y LE DA VALOR A LA VARIABLE "NOMBRE"
+- LOS **gets** ruby siempre los toma como cadena, no numeros
+
+- LOS DECIMALES EN RUBY SON CON PUNTO **(.)**
+
+
+  
+  
+##CONDICIONALES
+
+**if** + variables y condiciones
+contenido
+**end**
