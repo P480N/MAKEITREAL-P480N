@@ -1,13 +1,13 @@
 
 
-#--------------------EJERCICIO 1
+#--------------------EJERCICIO 1 TIRANDO VALOR DE VARIABLE
 =begin
 name1 = "ESTIVEN PABON"
 puts
 puts "welcome #{name1}"
 =end
 
-#--------------------EJERCICIO 2
+#--------------------EJERCICIO 2 TIRANDO VALOR DE VARIABLE
 =begin
 puts # ladocuadrado = 500
 puts "El perimetro de un cuadrado de lado #{ladocuadrado} es #{ladocuadrado*4}"
@@ -16,14 +16,14 @@ puts "El area de un cuadrado de lado #{ladocuadrado} es #{ladocuadrado}"
 puts
 =end
 
-#--------------------EJERCICIO 3
+#--------------------EJERCICIO 3 PIDIENDO DATOS
 =begin
 print "Ingresa tu nombre: "
 name = gets.chomp
 puts "Hola #{name}"
 =end
 
-#--------------------EJERCICIO 4
+#--------------------EJERCICIO 4 PIDIENDO DATOS
 =begin
 print "Ingresa el lado de un cuadrado para calcular el perimetro: "
 ladocuadrado = gets.chomp.to_i
@@ -33,7 +33,7 @@ ladocuadrado = gets.chomp.to_i
 puts "EL AREA DE ESE CUADRADO DE LADO #{ladocuadrado} es #{ladocuadrado*ladocuadrado}"
 =end
 
-#--------------------EJERCICIO 5
+#--------------------EJERCICIO 5 PIDIENDO DATOS
 
 # 1- El siguiente código no está imprimiendo el texto esperado, que debería ser "Hola Germán". ¿Cuál es el problema y cómo lo podrías solucionar?
 # name = "Germán"
@@ -53,7 +53,7 @@ puts "EL AREA DE ESE CUADRADO DE LADO #{ladocuadrado} es #{ladocuadrado*ladocuad
 # vive en la RAM y su vida depende de que el dispositivo esté encendido, o actualice el navegado
 
 
-#--------------------EJERCICIO 6
+#--------------------EJERCICIO 6 PIDIENDO DATOS
 =begin
 
 rescue ExceptionName
@@ -85,7 +85,7 @@ puts "Ome la mitad de #{numerito} es #{numerito/2}"
 puts
 =end
 
-#--------------------EJERCICIO 6
+#--------------------EJERCICIO 7 CONDICIONALES
 =begin
 if true
   puts "HOLII!"
@@ -109,7 +109,7 @@ if 3==6
   puts "son diferentes, ojo"
 end
 =end
-#--------------------EJERCICIO 6
+#--------------------EJERCICIO 8 CONDICIONALES
 =begin
 print "ingresa algún numerito: "
 
@@ -123,8 +123,8 @@ if num > 20
   puts "ese numero ingresado es mayor a 20"
 end
 =end
-#--------------------EJERCICIO 6
-
+#--------------------EJERCICIO 9 CONDICIONALES
+=begin
 print "ingresa algún numerito: "
 
 num = gets.chomp.to_i
@@ -137,4 +137,20 @@ if num == 10
 else num > 10
   puts "ese numero ingresado es mayor a 10"
 end
+end
+=end
+
+#--------------------EJERCICIO 10 CONDICIONALES
+
+
+print "ingresa algún numerito: "
+
+num = gets.chomp.to_i
+
+if num < 10
+  puts "ese numero ingresado es menor a 10"
+elsif num == 10
+  puts "ese numero ingresado es igual a 10"
+elsif num > 10
+  puts "ese numero ingresado es mayor a 10"
 end

@@ -25,4 +25,6 @@ contenido
 
 condicion dentro de condicionales
 
-else = de lo contrario
+**else** = de lo contrario
+
+de lo contrario si = **elsif**
