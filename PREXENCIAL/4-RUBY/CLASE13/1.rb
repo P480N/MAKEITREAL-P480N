@@ -124,6 +124,7 @@ if num > 20
 end
 =end
 #--------------------EJERCICIO 6
+
 print "ingresa algún numerito: "
 
 num = gets.chomp.to_i
