@@ -141,7 +141,7 @@ end
 =end
 
 #--------------------EJERCICIO 10 CONDICIONALES
-
+=begin
 
 print "ingresa algún numerito: "
 
@@ -153,4 +153,22 @@ elsif num == 10
   puts "ese numero ingresado es igual a 10"
 elsif num > 10
   puts "ese numero ingresado es mayor a 10"
+end
+
+=end
+
+#--------------------EJERCICIO 11 CONDICIONALES
+
+print "ingresa algún numerito: "
+num = gets.chomp.to_i
+
+if num < 10 && num > 5
+  puts "ese numero ingresado esta entre 5 y 10"
+end
+
+print "ingresa algún numerito: "
+num = gets.chomp.to_i
+
+if num == 10 || num == 5
+  puts "ese numero ingresado o es 5 o es 10"
 end

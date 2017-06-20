@@ -13,18 +13,13 @@
 - LOS **gets** ruby siempre los toma como cadena, no numeros
 
 - LOS DECIMALES EN RUBY SON CON PUNTO **(.)**
-
-
-  
-  
 ##CONDICIONALES
 
 **if** + variables y condiciones
 contenido
 **end**
-
 condicion dentro de condicionales
-
 **else** = de lo contrario
-
 de lo contrario si = **elsif**
+**&& **es el **Y**
+**||** es el **OR**
