@@ -49,18 +49,27 @@ end
 #   puts "usted tiene severo sobrepeso mijo"
 # end
 
-#-------------- EJERCICIO 3
+# -------------- EJERCICIO 3
 
-print "ingresa un numero: "
-numerocliente = gets.chomp.to_i
+# print "ingresa un numero: "
+# numerocliente = gets.chomp.to_i
+#
+# if (numerocliente%5) == 0 && (numerocliente%3) == 0
+#     puts "el #{numerocliente} es FIZZBUZZ"
+# elsif (numerocliente%3) == 0
+#   puts "el #{numerocliente} es FIZZ"
+# elsif (numerocliente%5) == 0
+#     puts "el #{numerocliente} es BUZZ"
+# elsif (numerocliente%5) == 0 && (numerocliente%3) == 0
+#       puts "el #{numerocliente} es FIZZBUZZ"
+# else puts "el #{numerocliente} no es ni FIZZ ni BUZZ"
+# end
 
-if (numerocliente%5) == 0 && (numerocliente%3) == 0
-    puts "el #{numerocliente} es FIZZBUZZ"
-elsif (numerocliente%3) == 0
-  puts "el #{numerocliente} es FIZZ"
-elsif (numerocliente%5) == 0
-    puts "el #{numerocliente} es BUZZ"
-elsif (numerocliente%5) == 0 && (numerocliente%3) == 0
-      puts "el #{numerocliente} es FIZZBUZZ"
-else puts "el #{numerocliente} no es ni FIZZ ni BUZZ"
-end
+
+
+
+def saluda()
+  print "Hola #{}"
+  end
+
+saluda()
