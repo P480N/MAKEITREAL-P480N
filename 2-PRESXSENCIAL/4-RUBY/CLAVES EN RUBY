@@ -1,0 +1,95 @@
+#CLAVES EN RUBY
+
+
+**SIMBOLOS**
+.> mayor
+< menor
+\>= mayor o igual
+<= menor o igual
+== ES UNA COMPARACIÓN **Y SE LEE, ESTE ES IGUAL A AQUEL?**
+!= ES DIFERENCIA, **ESTE ES DIFERENTES A AQUEL? 
+**
+---
+
+**VARIABLES:**
+
+~~NO 213ASD= VARIABLE~~
+SI:
+
+ - caso= algo
+ - $caso= otra
+ - _caso= una más
+
+---
+- no se pueden nombrar **ni numeros ni con mayusculas**
+- pero si iniciando con **`$ ó _`**
+---
+
+
+- **`to_s`** CONVIERTE NUMEROS A TEXTO
+- **`to_i`** CONVIERTE CADENA DE TEXTO EN NUMEROS
+
+- NOMBRE = **`gets.chomp`**PIDE AL USUARIO ALGO Y LE DA VALOR A LA VARIABLE "NOMBRE"
+
+- CON `gets.chomp.to_s` pide algo al usuario y lo convierte a texto
+- CON `gets.chomp.to_i` pide algo al usuario y lo convierte a numeros
+
+- LOS **`gets`** ruby siempre los toma como cadena, no numeros
+
+- LOS DECIMALES EN RUBY SON CON PUNTO **(.)**
+
+---
+
+**CONDICIONALES**
+
+**`if`** + variables y condiciones
+aqui va el contenido contenido
+**`end`**
+
+
+condiciones dentro de condicionales:
+
+- = **`elsif`** = de lo contrario si --- ES MEJOR ESE **SIEMPRE**
+- **`else`** = de lo contrario
+
+- **`&&` **es el **AND** DE PROGRAMACIÓN
+- **`||`** es el **OR** DE PROGRAMACIÓN
+
+
+---
+
+**COMILLAS EN RUBY**
+
+se ponen en comillas DOBLES las de adentro
+las de afuera son SENCILLAS
+si tiene una abreviación la palabra se añade `/` antes de la comilla simple
+
+
+`'Y con las palabras "vamos pa\' lante" creó Ruby'`
+
+O
+
+`"Y con las palabras \"vamos pa' lante\" creó Ruby"`
+
+
+---
+
+**PROCESO PARA SOLCIONAR OPERACIÓN BOOLEANA**
+
+1- Evalúa los operadores de igualdad (<, >, ==, !== etc).
+2- Evalúa los && y || que esten dentro de paréntesis.
+3- Evalúa las negaciones (!).
+4- Evalúa cualquier && y || que falte.
+---
+
+**CICLOS**
+
+WHILE
+~~~
+while + condición
+  # acá va el código que se va a repetir mientras la condición sea verdadera
+end
+~~~
+
+
+
