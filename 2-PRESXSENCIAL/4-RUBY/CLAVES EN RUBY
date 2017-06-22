@@ -92,4 +92,17 @@ end
 ~~~
 
 
+**CONTADORES**
 
+se declara una variable con un inicio
+`i = 1`
+dentro de un ciclo se pone
+`i = i + 1`
+
+#MÉTODOS
+
+**ALEATORIO**
+crea un numero aleatorio con un rango, en este caso de cero a 3
+~~~
+num = rand(0..3)
+~~~
