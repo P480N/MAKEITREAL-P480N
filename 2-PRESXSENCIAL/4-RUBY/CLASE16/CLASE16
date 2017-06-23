@@ -1,0 +1,69 @@
+#RUBY
+
+##ARRAY
+
+- `array = ["tal", "cual", "asa", "asi"]` TIENE 4 ELEMENTOS
+- empieza en posición 0
+- `arrayvacio = []`
+- `array[1]` muestra lo que hay en la posición 1 del array
+-  **Recorriendo** un arreglo: 
+~~~
+ array = [1, "Pedro", true, false, "Juan"]
+array.each do |element|
+  puts element
+end
+~~~
+- PARA **HALLAR El INDICE** de cada elemento:
+
+~~~
+array = [1, "Pedro", true, false, "Juan"]
+
+array.each_with_index do |element, index|
+  puts "#{index}: #{element}"
+end
+~~~
+- PARA **REEMPLAZAR** UN ELEMENTO EN EL ARRAY
+
+~~~
+array = [1, "Pedro", true, false, "Juan"]
+array[1] = "Germán" # reemplazamos el elemento en la posición 1
+
+# [1, "Germán", true, false, "Juan"]
+~~~
+
+- PARA **INSERTAR** NUEVOS ELEMENTOS AL ARRAY:
+asi lo ingresa en la última posición:
+~~~
+array = ["Pedro"]
+array.push("Germán") # ["Pedro", "Germán"]
+array << "Diana" # ["Pedro", "Germán", "Diana"]
+~~~
+O TAMBIEN ASÍ ESPECIFICANDO LA **POSICIÓN** DONDE QUIERO INSERTAR EL ELEMENTO
+
+~~~
+array = ["Pedro", "Germán", "Diana"]
+array.insert(0, "Juan") # ["Juan", "Pedro", "Germán", "Diana"]
+~~~
+- PARA ELIMINAR ELEMENTOS DEL ARRAY:
+~~~
+array = ["Pedro", "Germán", "Diana"]
+array.delete_at(1) # ["Pedro", "Diana"]
+~~~
+
+##METODOS PARA ARRAY
+`.first`	**Retorna el primer elemento** del arreglo
+`.last`	**Retorna el último elemento** del arreglo
+`.shuffle`	Retorna un nuevo arreglo mezclado aleatoriamente
+`.length`	**Retorna el tamaño** del arreglo
+`.compact` elimina los **nil** del array
+
+`.shuffle!` Retorna **EL MISMO ARREGLO (LO MODIFICA)** mezclado aleatoriamente
+
+`.reverse!` pone los primeros elementos de ultimo
+
+- **CON ESTO SE SELECCIONAN O MUESTRAS SOLO IMPARES O PARES**
+
+~~~
+par = numbers.select {|x| x.even?}
+impar = numbers.select {|x| x.odd?}
+~~~
