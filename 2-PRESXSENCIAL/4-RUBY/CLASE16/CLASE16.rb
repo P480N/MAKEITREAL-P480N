@@ -41,3 +41,5 @@
 # impar = numbers.select {|x| x.odd?}
 # puts "estos son los pares #{par}"
 # puts "estos son los impares #{impar}"
+
+#------------------#EJERCICIO 3 PARES IMPARES
